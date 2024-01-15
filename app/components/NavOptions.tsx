@@ -15,7 +15,7 @@ function NavOptions() {
                 <div className='w-full h-1 rounded bg-black'></div>
                 <div className='w-full h-1 rounded bg-black'></div>
             </div>
-            <motion.div className={`fixed pr-5 pl-2 top-0 bottom-0  bg-red-500 bg-opacity-50 sm:hidden flex flex-col gap-4 left-1/2 right-0 w-full justify-center items-center `} animate={
+            <motion.div className={`fixed pr-5 pl-2 top-0 bottom-0 max-h-[100svh] h-[100vh]  bg-red-500 bg-opacity-50 sm:hidden flex flex-col gap-4 left-1/2 right-0 w-full justify-center items-center `} animate={
                 { scaleX: show === '0' ? 1 : 0, x: '-50%' }
             }>
 
