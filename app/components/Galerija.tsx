@@ -2,6 +2,7 @@ import React from 'react'
 import slika1 from '@/public/imgs/Galerija1.jpeg'
 import Image from 'next/image'
 import Dotted from './Patterns/Dotted'
+import Link from 'next/link'
 function Galerija() {
     return (
         <div className='grid sm:grid-cols-3 px-10 md:px-[7.5%] gap-10 pb-10 '>
@@ -35,7 +36,7 @@ function Galerija() {
             </div>
 
             <div className='flex  justify-center md:justify-end items-center '>
-                <button className='rounded bg-red-400 md:mr-10 text-white px-4 py-2 text-xl md:text-2xl '>Vidi još...</button>
+                <Link href={'/galerija'} className='rounded bg-red-500 md:mr-10 text-white px-4 py-2 text-lg md:text-xl '>Vidi još...</Link>
             </div>
         </div>
     )

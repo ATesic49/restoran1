@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import ONama from './components/ONama'
 import Galerija from './components/Galerija'
 import NasRestoran from './components/NasRestoran'
+import Lokacija from './components/Lokacija'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ONama />
       <Galerija />
       <NasRestoran />
+      <Lokacija />
     </main>
   )
 }

@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import { Spectral } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
-const inter = Spectral({ subsets: ['latin'], weight: ['400', '500'] })
+const inter = Spectral({ subsets: ['latin'], weight: ['200', '300', '400', '500', '600', '700'] })
 
 export const metadata: Metadata = {
   title: 'Restoran #1',
@@ -19,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        {children}</body>
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

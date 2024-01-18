@@ -5,7 +5,7 @@ import NavOptions from './NavOptions';
 const lobstet = Lobster({ subsets: ['latin'], weight: ['400'] })
 function Navbar() {
     return (
-        <div className='z-50 bg-blend-overlay bg-opacity-10 backdrop-blur-sm  fixed top-0  md:w-[90%] mx-auto border-b px-8 py-4 flex justify-between lg:left-[5%]  w-full  '>
+        <div className='z-[51] bg-blend-overlay bg-opacity-10 backdrop-blur-sm  fixed top-0  md:w-[90%] mx-auto border-b px-8 py-4 flex justify-between lg:left-[5%]  w-full  '>
             <div className={`${lobstet.className} font-extrabold text-red-500 text-lg md:text-2xl`}>Najbolji Restoran</div>
 
 
