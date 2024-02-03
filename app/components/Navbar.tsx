@@ -13,11 +13,11 @@ function Navbar() {
             <div className='hidden sm:flex items-center  justify-between  gap-2 md:gap-20 '>
 
                 <nav className=' flex gap-4 md:gap-10 justify-center items-center  font-medium'>
-                    <Link href="/" className='text-base md:text-lg '>Pocetna</Link>
+                    <Link href="/" className='text-base md:text-lg '>O nama</Link>
                     <Link href="" className='text-base md:text-lg '>Galerija</Link>
-                    <Link href="" className='text-base md:text-lg '>Pocetna</Link>
+                    <Link href="" className='text-base md:text-lg '>Meni</Link>
                 </nav>
-                <button className='bg-red-600 px-4 py-1 text-lg text-white rounded-lg '>Poruči</button>
+                <button className='bg-red-600 px-4 py-1 text-lg text-white rounded-lg '>Rezerviši.</button>
             </div>
             <NavOptions />
         </div>
