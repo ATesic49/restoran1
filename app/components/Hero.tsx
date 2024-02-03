@@ -7,7 +7,7 @@ import heroBg from '@/public/imgs/HeroBackground.jpeg'
 import Fish from '@/public/svgs/fish.svg'
 function Hero() {
     return (
-        <div className='relative min-h-[100vh] bg-red-500 bg-opacity-40'>
+        <div className='relative min-h-[100vh] bg-red-600 bg-opacity-40'>
             <Image src={Fish} alt='' className='stroke-2 stroke-white absolute top-full w-32 md:w-52 z-20 left-1/2 -translate-x-1/2 -translate-y-1/2 ' />
             <Scroll />
             <Image src={heroBg} fill alt='' objectFit='cover' objectPosition='center' className='-z-10  '></Image>
@@ -87,7 +87,7 @@ function Hero() {
                 <div className='flex flex-col gap-10 w-full md:w-2/3 ml-6 md:ml-0 md:mt-20 mt-20 justify-center md:mr-32 items-start'>
                     <h1 className='md:text-6xl text-2xl w-[10em] text-red-500 font-bold'>Najbolji Riblji Restoran Na Voždovcu</h1>
                     <p className='text-neutral-500 w-7/12  md:w-[25em]  font-extralight text-sm  md:text-base'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad odit dolorem quam deserunt vero dicta nemo vel quibusdam.</p>
-                    <Button text='Poruči.' color='bg-red-500' addClass=' text-orange-100 hover:scale-[105%] duration-200' />
+                    <Button text='Poruči.' color='bg-red-600' addClass=' text-neutral-100 hover:scale-[105%] duration-200' />
 
                 </div>
 

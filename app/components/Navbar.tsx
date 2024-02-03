@@ -10,14 +10,14 @@ function Navbar() {
 
 
 
-            <div className='hidden sm:flex items-center  justify-between w-6/12 gap-2 md:gap-10 '>
+            <div className='hidden sm:flex items-center  justify-between  gap-2 md:gap-20 '>
 
-                <nav className=' flex gap-4 md:gap-10 justify-center items-center'>
-                    <Link href="" className='text-base md:text-lg '>Pocetna</Link>
-                    <Link href="" className='text-base md:text-lg '>Pocetna</Link>
+                <nav className=' flex gap-4 md:gap-10 justify-center items-center  font-medium'>
+                    <Link href="/" className='text-base md:text-lg '>Pocetna</Link>
+                    <Link href="" className='text-base md:text-lg '>Galerija</Link>
                     <Link href="" className='text-base md:text-lg '>Pocetna</Link>
                 </nav>
-                <button className='bg-orange-200 px-4 py-1 text-lg text-white rounded-lg '>Poruči</button>
+                <button className='bg-red-600 px-4 py-1 text-lg text-white rounded-lg '>Poruči</button>
             </div>
             <NavOptions />
         </div>

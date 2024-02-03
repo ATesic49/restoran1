@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import { Spectral } from 'next/font/google'
+import { Poppins as myFont } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-const inter = Spectral({ subsets: ['latin'], weight: ['200', '300', '400', '500', '600', '700'] })
+const font = myFont({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '700', '900'] })
 
 export const metadata: Metadata = {
   title: 'Restoran #1',
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={font.className}>
         <Navbar />
         {children}
         <Footer />

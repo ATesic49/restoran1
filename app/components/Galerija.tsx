@@ -10,8 +10,8 @@ function Galerija() {
                 <Dotted klasa='sm:top-20 -top-5 -left-5 sm:-left-20  sm:scale-75' />
                 <div className='absolute top-0 left-0  w-full h-full group z-50 overflow-hidden rounded-b-lg '>
                     <div className='w-full flex flex-col gap-2 absolute bottom-0 translate-y-full bg-red-400   p-4 bg-opacity-70 group-hover:translate-y-0 duration-200 '>
-                        <h2 className='text-white font-bold md:text-2xl text-xl z-20 '>Glavna sala</h2>
-                        <p className='text-white font-thin text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. .</p>
+                        <h2 className='text-neutral-50 font-bold md:text-2xl text-xl z-20 '>Glavna sala</h2>
+                        <p className='text-neutral-100 font-extralight text-sm '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. .</p>
 
                     </div>
 
@@ -24,8 +24,8 @@ function Galerija() {
                 <Dotted klasa='sm:-top-20 sm:left-20 -top-5 -left-5   sm:scale-75' />
                 <div className='absolute top-0 left-0  w-full h-full group z-50 overflow-hidden rounded-b-lg'>
                     <div className='w-full flex flex-col gap-2 absolute bottom-0  translate-y-full bg-red-400   p-4 bg-opacity-70 group-hover:translate-y-0 duration-200 '>
-                        <h2 className='text-white font-bold md:text-2xl text-xl z-20 '>Glavna sala</h2>
-                        <p className='text-white font-thin text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. .</p>
+                        <h2 className='text-neutral-50 font-bold md:text-2xl text-xl z-20 '>Glavna sala</h2>
+                        <p className='text-neutral-100 font-extralight text-sm'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. .</p>
 
                     </div>
 
@@ -36,7 +36,7 @@ function Galerija() {
             </div>
 
             <div className='flex  justify-center md:justify-end items-center '>
-                <Link href={'/galerija'} className='rounded bg-red-500 md:mr-10 text-white px-4 py-2 text-lg md:text-xl '>Vidi još...</Link>
+                <Link href={'/galerija'} className='rounded bg-red-600 md:mr-10 text-neutral-100 px-4 py-2 text-lg md:text-xl '>Vidi još...</Link>
             </div>
         </div>
     )
